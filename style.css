@@ -1,0 +1,144 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  color: rgb(59, 59, 130);
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(254, 141, 100);
+}
+
+.mini-container {
+  height: 90%;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.content {
+  /* background-color: antiquewhite; */
+  height: 95%;
+  width: 85%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  cursor: pointer;
+  margin-left: 40px;
+  padding: 20px 15px;
+}
+.nav-bar a {
+  all: unset;
+  font-weight: 700;
+  font-size: small;
+}
+.nav-bar li {
+  padding: 10px 15px;
+}
+.nav-bar li:hover {
+  opacity: 50%;
+}
+.nav-bar button {
+  all: unset;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: rgb(59, 59, 130);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  height: 75%;
+  /* width: 75%; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.img-frame {
+  width: 250px;
+  height: 350px;
+  border: none;
+  border-radius: 300px;
+  background: #eee;
+  overflow: hidden;
+  margin-right: 40px;
+}
+.img-frame img {
+  height: 350px;
+  width: 250px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 20px;
+  font-weight: 200;
+
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 45px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.search-bar p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.search-btn {
+  all: unset;
+  background-color: orangered;
+  color: white;
+  border-radius: 45px;
+  padding: 10px 30px;
+  margin-left: 10px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
